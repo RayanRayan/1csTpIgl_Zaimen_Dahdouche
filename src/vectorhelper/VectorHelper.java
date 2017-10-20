@@ -14,7 +14,7 @@ public class VectorHelper {
          /**
 	 * @param tableau : un tableau des entiers pour le trier
          * ex: si tableau ={2,8,4,-3} il sera en sortie {-3,2,4,8}
-         * @return 
+         * @return il renvoit le tableau de l'entrée trié
 	 */
     public  int[] triBulle(int tableau[])
         {
