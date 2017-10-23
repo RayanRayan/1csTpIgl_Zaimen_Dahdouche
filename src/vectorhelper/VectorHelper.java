@@ -65,7 +65,7 @@ public class VectorHelper {
 	public int[] formule(int [] tableau)
 	 {
 		 for(int i=0;i<tableau.length;i++){
-			 tableau[i]=tableau[i]*2;
+			 tableau[i]=tableau[i]*3;
 		 }
                  return tableau;
 	 } 
