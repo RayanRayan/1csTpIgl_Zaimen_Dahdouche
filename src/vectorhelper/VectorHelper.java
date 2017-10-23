@@ -57,6 +57,19 @@ public class VectorHelper {
     }
     
     
+         /**
+	 * @param tableau :cette méthode va doubler tout les éléménts du tableau
+         * ex:si tableau={2,3,5} en sortie il sera {4,3,10}
+         * @return le tableau de l'entrée dont les elements intitiaux sont multipliés fois 2 
+	 */
+	public int[] formule(int [] tableau)
+	 {
+		 for(int i=0;i<tableau.length;i++){
+			 tableau[i]=tableau[i]*2;
+		 }
+                 return tableau;
+	 } 
+    
     	
 
   
