@@ -65,12 +65,25 @@ public class VectorHelper {
 	public int[] formule(int [] tableau)
 	 {
 		 for(int i=0;i<tableau.length;i++){
-			 tableau[i]=tableau[i]*2;
+			 tableau[i]=tableau[i]*3;
 		 }
                  return tableau;
 	 } 
     
-    	
+     /**
+	 * @param tableau : un tableau des int
+          * @return  il revoit le tableau de l'entrée trié
+          * * ex si tableau={1,2,3,4} en sortie il sera {4,3,2,1}
+	 */
+	public int[] inverser(int [] tableau){
+		 int swap;// cette var va servir pour stockerun elem avant de le changer
+		 for (int i=0;i<(tableau.length)/2;i++){
+			swap= tableau[i];
+			tableau[i]=tableau[tableau.length-1-i];
+			tableau[tableau.length-1-i]=swap;
+		 }
+                 return tableau;
+	 }	
 
           public int [] min_max_tab(int tableau[]){
         //cette methode renvoit dans un tableau de taille 2 
