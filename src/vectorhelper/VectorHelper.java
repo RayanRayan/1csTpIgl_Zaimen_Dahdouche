@@ -51,7 +51,7 @@ public class VectorHelper {
         if(tab1.length!=tab2.length) throw new SommeTableauException();
         else{
             for(int i=0;i<tab1.length;i++){
-                tab1[i]=tab1[i]+tab2[i];
+                tab2[i]=tab1[i]+tab2[i];
             }
         }
     }
