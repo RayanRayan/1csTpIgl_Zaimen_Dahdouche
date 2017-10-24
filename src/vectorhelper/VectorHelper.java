@@ -85,6 +85,15 @@ public class VectorHelper {
                  return tableau;
 	 }	
 
+        
+/**
+	 * @param tableau : un tableau en entrée qui contient des entiers
+	 * @return cc'est un tableau de taille 2 ,il contient dans ça 1 ére case 
+         * le max et dans la 2 ème cas le min
+         * ex: si tableau ={10,57,-3} alors la méthode renvoit un tableau ={57,-3}
+	 */
+    
+        
           public int [] min_max_tab(int tableau[]){
         //cette methode renvoit dans un tableau de taille 2 
         //le max(dans la 1 ére case du tableau) et le min(dans la 2 éme case du tableau) 
