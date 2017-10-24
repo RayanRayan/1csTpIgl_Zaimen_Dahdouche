@@ -46,12 +46,12 @@ public class VectorHelper {
      * @throws SommeTableauException
      */
     
-    public void somme_tableau(int[]tab1,int[] tab2)throws SommeTableauException{
+    public void somme_tableau(int[]tab1,int[] tab2,int[] tab3)throws SommeTableauException{
         
         if(tab1.length!=tab2.length) throw new SommeTableauException();
         else{
             for(int i=0;i<tab1.length;i++){
-                tab2[i]=tab1[i]+tab2[i];
+                tab3[i]=tab1[i]+tab2[i];
             }
         }
     }
