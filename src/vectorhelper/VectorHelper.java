@@ -51,7 +51,7 @@ public class VectorHelper {
         if(tab1.length!=tab2.length) throw new SommeTableauException();
         else{
             for(int i=0;i<tab1.length;i++){
-                tab2[i]=tab1[i]+tab2[i];
+                tab1[i]=tab1[i]+tab2[i];
             }
         }
     }
@@ -65,7 +65,7 @@ public class VectorHelper {
 	public int[] formule(int [] tableau)
 	 {
 		 for(int i=0;i<tableau.length;i++){
-			 tableau[i]=tableau[i]*3;
+			 tableau[i]=tableau[i]*4;
 		 }
                  return tableau;
 	 } 
