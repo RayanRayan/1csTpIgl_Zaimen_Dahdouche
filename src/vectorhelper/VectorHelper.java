@@ -72,6 +72,26 @@ public class VectorHelper {
     
     	
 
+          public int [] min_max_tab(int tableau[]){
+        //cette methode renvoit dans un tableau de taille 2 
+        //le max(dans la 1 ére case du tableau) et le min(dans la 2 éme case du tableau) 
+        int tab []= new int[2];
+        int max,min,i;
+         max=tableau[0];// initialisation du max et du min
+	 min=tableau[0];
+        for(i=0;i<tableau.length;i++)
+        {
+            if (tableau[i]<min)min=tableau[i];
+             if (tableau[i]>max)max=tableau[i];
+           
+        }
+        tab[0]=max;
+        tab[1]=min;
+        return tab;// un tableau de taille 2 qui contient  le min et le max
+        
+    }
+
+    
   
 	
    public static void main(String[] args) {
